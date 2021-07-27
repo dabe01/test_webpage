@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-display: swap;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-section {
+  margin-left: 25%;
+  margin-top: 50px;
+  height: 400px;
+  width: 50%;
+}
+
+#logo {
+  background-image: url(../img/google.png);
+}
+
+.logo {
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 60%;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.form {
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgba(100, 100, 100, 0.4);
+  border-radius: 25px;
+}
+
+.form:hover {
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(100, 100, 100, 0.2);
+          box-shadow: 2px 2px 2px 2px rgba(100, 100, 100, 0.2);
+}
+
+.search {
+  background-image: url(../img/search.png);
+  margin-top: 0.8%;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 83%;
+  padding: 5px 15px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0;
+  border-bottom: 0;
+  margin: 0;
+  margin-top: -0.75%;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.keyboard {
+  background-image: url(../img/keyboard.png);
+  margin-top: 20%;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.micro {
+  background-image: url(../img/micro.png);
+  margin-top: 20%;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.butts {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin-left: 25%;
+  font-family: OpenSans-Regular;
+  color: gray;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+
+.butt {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  width: 135px;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.butt:hover {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.languages {
+  margin-top: 5%;
+  margin-left: 32%;
+  width: 40%;
+  font-family: OpenSans-Regular;
+  color: gray;
+  font-weight: 600;
+}
